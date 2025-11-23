@@ -18,3 +18,24 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+/* Prevent horizontal scrolling and accidental pan on mobile */
+html, body, #app {
+  max-width: 100%;
+  overflow-x: hidden;
+  touch-action: pan-y;
+}
+
+/* Prevent horizontal overscroll on supporting browsers */
+html, body {
+  width: 100%;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+}
+
+/* Make media responsive to avoid forcing overflow */
+img, video {
+  max-width: 100%;
+  height: auto;
+}

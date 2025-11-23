@@ -44,7 +44,7 @@
           <div class="mission-image">
             <img
               src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&h=600&fit=crop&search_term=environmental,conservation,nature,sustainability"
-              alt="Environmental Mission" class="rounded-3xl shadow-2xl drop-shadow-xl w-full h-[500px] object-cover" />
+              alt="Environmental Mission" class="rounded-3xl shadow-2xl drop-shadow-xl w-full h-[300px] sm:h-[400px] md:h-[500px] object-cover" />
           </div>
           <div class="mission-text space-y-6">
             <h2 class="text-5xl font-bold text-earth-800">
