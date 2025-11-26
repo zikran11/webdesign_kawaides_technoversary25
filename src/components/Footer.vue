@@ -73,5 +73,7 @@ import { Leaf, Mail, Phone, MapPin, Facebook, Instagram, Twitter } from 'lucide-
 const navLinks = [
   { name: 'Beranda', path: '/' },
   { name: 'Tentang', path: '/about' },
+  { name: 'Galeri', path: '/gallery' },
+  { name: 'Kontak', path: '/contact' }
 ]
 </script>

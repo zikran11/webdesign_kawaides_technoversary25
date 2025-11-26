@@ -47,6 +47,8 @@ const menuOpen = ref(false)
 const navLinks = [
   { name: 'Beranda', path: '/' },
   { name: 'Tentang', path: '/about' },
+  { name: 'Galeri', path: '/gallery' },
+  { name: 'Kontak', path: '/contact' }
 ]
 
 const handleScroll = () => {
